@@ -2,17 +2,37 @@
     margin: 0;
     padding:0;
     scroll-behavior: smooth;
+   scrollbar-width: none;
+    
 }
 
 
+#sobre{
+    scroll-margin-top: 550px;
+}
+
+#formacao{
+    scroll-margin-top: 190px;
+}
+
+#habilidades{
+    scroll-margin-top:280px;
+}
+/*main{
+    position: sticky;
+    top:0;
+}*/
 /*NAVBAR*/
 
 .navbar{
     display: flex;
     flex-direction: row;
     gap: 22%;
-    margin-left: 6%;
+    margin-left: 2%;
     margin-top:1%;
+    width: auto;
+
+
 }
 
 .sobre{
@@ -32,6 +52,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .contatos{
     display: flex;
@@ -81,5 +102,171 @@
 }
 
 .sobretext h1{
+    display: flex;
     margin-left:10px;
+    font-size: 100%;
+}
+
+.formacao{
+    flex-direction: column;
+    margin-left: 6%;
+    margin-top: 10%;
+}
+
+.formacaoicon{
+    display: flex;
+    align-items: center;
+    gap:7px;    
+
+}
+
+.formgrad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 200px;
+    border-color: rgb(129, 129, 129);
+}
+
+.formete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 200px;
+    border-color: rgb(129, 129, 129);
+}
+
+.habiliicon{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.habilidadess{
+    flex-direction: column;
+    margin-left: 6%;
+    margin-top: 10%;
+    
+}
+
+.habiliprograns{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 200px;
+    border-color: rgb(129, 129, 129);
+    
+}
+
+.habiliprograns img{
+    width: 5%;
+    
+}
+
+.habiliprograns{
+    gap: 150px;
+    
+}
+
+.contact{
+    flex-direction: column;
+    margin-left: 6%;
+    margin-top: 10%;
+}
+
+.contacticon{
+    display: flex;
+    gap:7px;
+    align-items: center;
+}
+
+.contactmails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: 200px;
+    border-color: rgb(129, 129, 129);  
+    gap:500px;
+
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    
+}
+
+.linkedinmai{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.linkedinmai:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.linkedinimg{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.linkedinimg:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.mail{
+    display: flex;
+    align-items: center;   
+    gap:50px;
+}
+
+.divi{
+    margin-top:500px
+}
+.divid{
+    margin-top:300px
+}
+
+
+.upall{
+    display: flex;
+    position:sticky;
+    top:0;
+    justify-content: end;
+    visibility: hidden;
+}
+
+.imgteste{
+    position: absolute;
+    margin-top: 500px;
+    width: 100px;
+    display: flex;
+    margin-left: -100px;
 }
